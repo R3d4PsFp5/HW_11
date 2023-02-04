@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head_logo{
+    text-align: center;
+}
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+header nav li a{
+    text-decoration: none;
+    font-family: 'RR';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #8C8A8A;
+}
+ul{
+   list-style: none; 
+}
+.head_menu{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.head_logo img{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.body_img{
+    margin-top: 38px;
+    width: 100%;
+}
+.main_info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.main_i_l_text{
+    max-width: 595px;
+    width: 100%;
+    font-family: 'RR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+}
+h2{
+    font-family: 'RB';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #4581B7;
+    margin-bottom: 25px;
+}
+.main_info_left{
+    background: #F0F0F0;
+    padding: 50px 95px 50px 40px;
+}
+.main_info_right{
+    background: #F0F0F0;
+    padding: 50px 24px 160px 40px;
+}
+.main_i_r_text{
+    max-width: 286px;
+    width: 100%;
+    font-family: 'RR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+    margin-bottom: 30px;
+}
+h3{
+    font-family: 'RB';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #4581B7;
+}
+.body_info{
+    text-decoration: none;
+    font-family: 'RR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #808080;
+}
+.main_mail{
+    display: block;
+    margin-top: 55px;
+}
+.footer_info{
+    display: flex;
+    justify-content: space-between;
+    background: #F0F0F0;
+    margin-top: 30px;
+    padding: 15px 40px ;
+}
+.footer_tel_inf{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.footer_num{
+    font-family: "RB";
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #808080;
+    margin-top: 10px;
+}
+.footer_text{
+    font-family: "RR";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #808080;
+}
+
+
